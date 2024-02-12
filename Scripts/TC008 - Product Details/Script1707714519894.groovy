@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://advantageonlineshopping.com/?authuser=0#/')
-
-WebUI.maximizeWindow()
+WebUI.callTestCase(findTestCase('TC002 - Sign In'), [('account') : ''], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/svg_Sign out_menuSearch'))
 

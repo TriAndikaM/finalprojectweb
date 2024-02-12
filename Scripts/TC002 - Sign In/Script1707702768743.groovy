@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://advantageonlineshopping.com/?authuser=0#/')
+WebUI.navigateToUrl('https://advantageonlineshopping.com/')
 
 WebUI.maximizeWindow()
 
@@ -33,12 +33,13 @@ WebUI.click(findTestObject('Object Repository/Sign In_Advantage Shopping/input_E
 
 WebUI.click(findTestObject('Object Repository/Sign In_Advantage Shopping/button_SIGN IN'))
 
-account = WebUI.verifyElementVisible(findTestObject('Object Repository/Sign In_Advantage Shopping/account_name'),FailureHandling.OPTIONAL)
+account = WebUI.verifyElementVisible(findTestObject('Object Repository/Sign In_Advantage Shopping/account_name'), FailureHandling.OPTIONAL)
 
 if (account) {
-	println("Berhasil Masuk")
-}else {
-	println("Gagal Masuk")
+    println('Berhasil Masuk')
+} else {
+    println('Gagal Masuk')
 }
 
 WebUI.delay(3)
+

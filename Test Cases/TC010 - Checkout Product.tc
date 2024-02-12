@@ -5,4 +5,26 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9dfe937a-f01d-4649-aad2-49e4ea640b51</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>068e4657-5456-49ef-bda6-5284fe5ed0bb</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Metode Pembayaran</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>068e4657-5456-49ef-bda6-5284fe5ed0bb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>payment_method</value>
+      <variableId>6932b12d-9dbe-4285-8f7f-34dd22b205a1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6932b12d-9dbe-4285-8f7f-34dd22b205a1</id>
+      <masked>false</masked>
+      <name>payment_method</name>
+   </variable>
 </TestCaseEntity>

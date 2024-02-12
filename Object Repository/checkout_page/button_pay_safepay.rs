@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_pay_safepay</name>
+   <tag></tag>
+   <elementGuidId>11517db6-a0fb-467b-b583-b4d91d1acc52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>ca960919-e86c-4f0b-9b37-4e17c7c23d78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id=&quot;pay_now_btn_SAFEPAY&quot;]</value>
+      <webElementGuid>41e826dc-d2c2-4ab1-b143-332a00d5c9e7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

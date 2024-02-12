@@ -17,3 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('TC009 - Menambahkan Produk Ke Keranjang'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/checkout_page/button_CHECKOUT (1,099.98)'))
+
+WebUI.click(findTestObject('Object Repository/checkout_page/button_NEXT'))
+
+switch(payment_method) {
+	case payment_method = "safepay":
+		println("Metode pembayaran safepay")
+		WebUI.waitForElementVisible(findTestObject('Object Repository/checkout_page/img_safepay'), 10)
+		WebUI.click(findTestObject('Object Repository/checkout_page/img_safepay'))
+		WebUI.waitForElementClickable(findTestObject('Object Repository/checkout_page/button_pay_safepay'), 10)
+		WebUI.click(findTestObject('Object Repository/checkout_page/button_pay_safepay'))
+	break
+	
+	case payment_method = "mastercard":
+		println("Metode pembayaran mastercard")
+		WebUI.waitForElementVisible(findTestObject('Object Repository/checkout_page/img_1'), 10)
+		WebUI.click(findTestObject('Object Repository/checkout_page/img_1'))
+		WebUI.waitForElementClickable(findTestObject('Object Repository/checkout_page/button_PAY NOW'), 10)
+		WebUI.click(findTestObject('Object Repository/checkout_page/button_PAY NOW'))
+	break
+}
+
+
+
+WebUI.delay(8)
+
+WebUI.closeBrowser()
