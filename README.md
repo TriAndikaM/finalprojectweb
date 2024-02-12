@@ -161,39 +161,25 @@ Sesuai harapan.
 ## Deskripsi
 Memastikan bahwa pengguna dapat menyelesaikan proses pembelian produk dengan lancar.
 ## Prasyarat
-- User telah berhasil login atau mengakses website e-commerce.
-- Keranjang belanja telah diisi dengan produk yang ingin dibeli.
+-	User telah berhasil login atau mengakses website e-commerce.
+-	Keranjang belanja telah diisi dengan produk yang ingin dibeli.
+-	Informasi pengiriman dan pembayaran telah dimasukkan
 ## Langkah-langkah Uji
-1. Akses halaman keranjang belanja di website e-commerce.
-2. Periksa produk yang telah ditambahkan ke keranjang belanja, termasuk kuantitas, harga, dan total belanja.
-3. User klik tombol "Checkout".
+1.	Akses halaman keranjang belanja di website e-commerce.
+2.	Periksa produk yang telah ditambahkan ke keranjang belanja, termasuk kuantitas, harga, dan total belanja.
+3.	User klik tombol Checkout
+4.	User memeriksa informasi pengiriman 
+5.	User klik next
+6.	User memilih metode payment sesuai yang diinginkan 
+7.	User klik Pay Now.
 ## Hasil yang Diharapkan
-Sistem harus mengarahkan pengguna ke halaman order payment untuk melanjutkan proses pengisian informasi pengiriman dan metode pembayaran.
+-	Sistem harus mengarahkan pengguna ke halaman order payment untuk melanjutkan proses pengisian informasi pengiriman dan metode pembayaran
+-	User harus menerima konfirmasi atau pesan sukses yang menegaskan bahwa pembayaran mereka telah berhasil diproses setelah menyelesaikan proses pembayaran.
+-	Informasi pesanan, termasuk detail produk, alamat pengiriman, dan informasi pembayaran, harus tersedia untuk dilihat oleh User setelah menyelesaikan pembayaran
 ## Hasil Aktual
-Sistem mengarahkan pengguna ke halaman order payment untuk melanjutkan proses pengisian informasi pengiriman dan metode pembayaran.
-## Status
-Lolos
-## Catatan
-Sesuai harapan.
-
-# Test Case: TC011 - Payment
-## Deskripsi
-Memastikan bahwa user dapat melakukan pembayaran produk dengan sukses.
-## Prasyarat
-- User telah berhasil login atau mengakses website e-commerce.
-- User telah melakukan Checkout Product.
-- Informasi pengiriman dan pembayaran telah dimasukkan.
-## Langkah-langkah Uji
-1. User memeriksa informasi pengiriman.
-2. User klik "next".
-3. User memilih metode pembayaran sesuai yang diinginkan.
-4. User klik "Pay Now".
-## Hasil yang Diharapkan
-- User harus menerima konfirmasi atau pesan sukses yang menegaskan bahwa pembayaran mereka telah berhasil diproses setelah menyelesaikan proses pembayaran.
-- Informasi pesanan, termasuk detail produk, alamat pengiriman, dan informasi pembayaran, harus tersedia untuk dilihat oleh User setelah menyelesaikan pembayaran.
-## Hasil Aktual
-- User menerima konfirmasi atau pesan sukses yang menegaskan bahwa pembayaran mereka telah berhasil diproses setelah menyelesaikan proses pembayaran.
-- Informasi pesanan, termasuk detail produk, alamat pengiriman, dan informasi pembayaran, tersedia untuk dilihat oleh User setelah menyelesaikan pembayaran pada menu My Order.
+-	Sistem mengarahkan pengguna ke halaman order payment untuk melanjutkan proses pengisian informasi pengiriman dan metode pembayaran
+-	User menerima konfirmasi atau pesan sukses yang menegaskan bahwa pembayaran mereka telah berhasil diproses setelah menyelesaikan proses pembayaran.
+-	Informasi pesanan, termasuk detail produk, alamat pengiriman, dan informasi pembayaran, tersedia untuk dilihat oleh User setelah menyelesaikan pembayaran pada menu My Order
 ## Status
 Lolos
 ## Catatan
