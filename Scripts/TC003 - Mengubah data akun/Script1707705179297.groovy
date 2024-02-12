@@ -28,40 +28,34 @@ WebUI.click(findTestObject('Object Repository/Edit Details_Advantage Shopping/a_
 WebUI.doubleClick(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 30 character_phone_numb_65665d'))
 
 WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 30 character_phone_numb_65665d'), 
-    '0813318728302')
+    phone_number)
 
-WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_Country_cityAccountDetails'), 'Jakarta')
+//WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_Country_cityAccountDetails'), 'Jakarta')
 
 WebUI.doubleClick(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_Country_cityAccountDetails'))
 
-WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_Country_cityAccountDetails'), 'Tangerang')
+WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_Country_cityAccountDetails'), city)
 
-WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 25 character_addressAcc_127d32'), 
-    'Jakarta')
+//WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 25 character_addressAcc_127d32'), 'Jakarta')
 
 WebUI.doubleClick(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 25 character_addressAcc_127d32'))
 
 WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 25 character_addressAcc_127d32'), 
-    'Tangerang')
+    address)
 
-WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 10 character_state__pro_cfb8b5'), 
-    'Jakarta')
+//WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 10 character_state__pro_cfb8b5'), 'Jakarta')
 
 WebUI.doubleClick(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 10 character_state__pro_cfb8b5'))
 
 WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 10 character_state__pro_cfb8b5'), 
-    'Tangerang Selatan')
+    state)
 
-WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 50 character_postal_cod_af6569'), 
-    '88')
+//WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 50 character_postal_cod_af6569'), '88')
 
 WebUI.doubleClick(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 50 character_postal_cod_af6569'))
 
 WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 50 character_postal_cod_af6569'), 
-    '897213')
-
-WebUI.setText(findTestObject('Object Repository/Edit Details_Advantage Shopping/input_- Use maximum 10 character_state__pro_cfb8b5'), 
-    'Tangerang')
+    postal_code)
 
 WebUI.click(findTestObject('Object Repository/Edit Details_Advantage Shopping/button_SAVE'))
 

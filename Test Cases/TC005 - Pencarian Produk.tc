@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan pengguna dapat menemukan produk yang mereka cari dengan menggunakan fitur pencarian, dan bahwa sistem merespons dengan benar terhadap permintaan pencarian.</description>
+   <name>TC005 - Pencarian Produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2f9446e-9916-4197-aa1f-61c833277c76</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>ac66c2f0-85a7-48ec-a1b4-6f9cd7cdd0ea</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Nama Produk</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>ac66c2f0-85a7-48ec-a1b4-6f9cd7cdd0ea</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>nama_produk</value>
+      <variableId>b76b8567-d310-4bc2-95f7-b70a102f4e23</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b76b8567-d310-4bc2-95f7-b70a102f4e23</id>
+      <masked>false</masked>
+      <name>nama_produk</name>
+   </variable>
+</TestCaseEntity>

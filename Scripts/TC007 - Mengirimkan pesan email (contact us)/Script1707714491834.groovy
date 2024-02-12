@@ -21,24 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://advantageonlineshopping.com/?authuser=0#/')
 
-WebUI.maximizeWindow()
+WebUI.selectOptionByValue(findTestObject('Object Repository/contact_us/select_Select CategoryLaptopsHeadphonesTabl_1ef56f'), 
+    'object:60', true)
 
-WebUI.click(findTestObject('Object Repository/Sign In_Advantage Shopping/a_My account                        My orde_124641'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/contact_us/select_Select ProductHP Chromebook 14 G1(EN_361ba3'), 
+    'object:127', true)
 
-WebUI.setText(findTestObject('Object Repository/Sign In_Advantage Shopping/input_OR_username'), GlobalVariable.username)
+WebUI.click(findTestObject('Object Repository/contact_us/input__emailContactUs'))
 
-WebUI.setText(findTestObject('Object Repository/Sign In_Advantage Shopping/input_Username_password'), GlobalVariable.password)
+WebUI.setText(findTestObject('Object Repository/contact_us/input__emailContactUs'), 'kucing@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Sign In_Advantage Shopping/input_Email_remember_me'))
+WebUI.setText(findTestObject('Object Repository/contact_us/textarea__subjectTextareaContactUs'), 'laptopnya masih ada stoknya gak?')
 
-WebUI.click(findTestObject('Object Repository/Sign In_Advantage Shopping/button_SIGN IN'))
+WebUI.click(findTestObject('Object Repository/contact_us/button_SEND'))
 
-account = WebUI.verifyElementVisible(findTestObject('Object Repository/Sign In_Advantage Shopping/account_name'),FailureHandling.OPTIONAL)
+WebUI.closeBrowser()
 
-if (account) {
-	println("Berhasil Masuk")
-}else {
-	println("Gagal Masuk")
-}
-
-WebUI.delay(3)

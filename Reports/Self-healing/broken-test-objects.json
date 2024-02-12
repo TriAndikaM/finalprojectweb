@@ -19,6 +19,16 @@
       "proposedLocatorMethod": "BASIC",
       "recoveryMethod": "BASIC",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Register_Advantage Shopping/path_CHECKOUT  (0.00)_menuUserSVGPath_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Advantage Shopping/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "#menuSearch \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Advantage Shopping/path_CSS.png"
     }
   ]
 }

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan bahwa user dapat dengan sukses menambahkan produk yang mereka pilih ke dalam keranjang belanja mereka</description>
+   <name>TC009 - Menambahkan Produk Ke Keranjang</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b95b4414-857e-4cf8-b68b-3a1001657e9d</testCaseGuid>
+</TestCaseEntity>

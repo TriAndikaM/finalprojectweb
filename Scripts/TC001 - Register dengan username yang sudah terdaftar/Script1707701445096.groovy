@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://advantageonlineshopping.com/?authuser=0#/')
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/Register_Advantage Shopping/path_CHECKOUT  (0.00)_menuUserSVGPath'))
 
 WebUI.click(findTestObject('Object Repository/Register_Advantage Shopping/a_CREATE NEW ACCOUNT'))

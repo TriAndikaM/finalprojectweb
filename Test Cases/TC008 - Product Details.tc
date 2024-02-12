@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan bahwa user dapat melihat informasi yang akurat dan lengkap tentang produk yang mereka minati, serta memastikan bahwa sistem merespons dengan benar terhadap permintaan untuk melihat detail produk</description>
+   <name>TC008 - Product Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a85093f5-1456-4dc6-9c90-48b3ac107f96</testCaseGuid>
+</TestCaseEntity>

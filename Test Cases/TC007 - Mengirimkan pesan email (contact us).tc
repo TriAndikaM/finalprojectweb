@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan bahwa user dapat mengirimkan pesan email ke pihak admin atau tim dukunga pelanggan website dengan lancar</description>
+   <name>TC007 - Mengirimkan pesan email (contact us)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>424a5f9b-12fb-4bcb-a1a4-9842323a650a</testCaseGuid>
+</TestCaseEntity>

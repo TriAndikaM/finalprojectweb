@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC002 - Sign In'), [('account') : ''], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/Log_out/svg_CHECKOUT  (0.00)_menuUser'))
 
 WebUI.click(findTestObject('Object Repository/Log_out/label_Sign out'))

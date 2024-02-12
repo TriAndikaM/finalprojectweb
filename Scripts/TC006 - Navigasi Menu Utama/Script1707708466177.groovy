@@ -23,22 +23,11 @@ WebUI.navigateToUrl('https://advantageonlineshopping.com/?authuser=0#/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Sign In_Advantage Shopping/a_My account                        My orde_124641'))
+WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/a_OUR PRODUCTS'))
 
-WebUI.setText(findTestObject('Object Repository/Sign In_Advantage Shopping/input_OR_username'), GlobalVariable.username)
+WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/a_SPECIAL OFFER'))
 
-WebUI.setText(findTestObject('Object Repository/Sign In_Advantage Shopping/input_Username_password'), GlobalVariable.password)
+WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/a_POPULAR ITEMS'))
 
-WebUI.click(findTestObject('Object Repository/Sign In_Advantage Shopping/input_Email_remember_me'))
+WebUI.click(findTestObject('Object Repository/Page_Advantage Shopping/a_CONTACT US'))
 
-WebUI.click(findTestObject('Object Repository/Sign In_Advantage Shopping/button_SIGN IN'))
-
-account = WebUI.verifyElementVisible(findTestObject('Object Repository/Sign In_Advantage Shopping/account_name'),FailureHandling.OPTIONAL)
-
-if (account) {
-	println("Berhasil Masuk")
-}else {
-	println("Gagal Masuk")
-}
-
-WebUI.delay(3)

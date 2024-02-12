@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>fe546e82-8562-4ac2-8625-dc5b7c126097</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#menuSearch > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>6e7ebf17-8fc9-4d49-b75e-eb8cbe259ecf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#313131</value>
+      <webElementGuid>18285b1a-23fb-4005-8c02-61aa1c5d8dab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M23.7,22l-6.8-5.6c0,0-0.1,0-0.1-0.1c3.1-3.8,2.9-9.4-0.6-12.9c-1.8-1.8-4.2-2.8-6.7-2.8
+	c-2.5,0-4.9,1-6.7,2.8c-3.7,3.7-3.7,9.8,0,13.6c1.8,1.8,4.2,2.8,6.7,2.8c2.3,0,4.4-0.8,6.1-2.2c0,0,0,0.1,0.1,0.1l6.8,5.6
+	c0.2,0.2,0.4,0.3,0.6,0.3c0.2,0,0.4-0.1,0.6-0.3C24.1,22.9,24.1,22.3,23.7,22z M9.5,17.9c-2.1,0-4-0.8-5.5-2.3c-3-3.1-3-8,0-11.1
+	c1.5-1.5,3.4-2.3,5.5-2.3c2.1,0,4,0.8,5.5,2.3c3,3.1,3,8,0,11.1C13.5,17.1,11.6,17.9,9.5,17.9z</value>
+      <webElementGuid>7ebb6d19-3e37-472b-ae27-7c0478642139</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;search&quot;)/a[1]/svg[@id=&quot;menuSearch&quot;]/path[1]</value>
+      <webElementGuid>b7fdae88-968f-4fc9-bf79-22f24d731d21</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

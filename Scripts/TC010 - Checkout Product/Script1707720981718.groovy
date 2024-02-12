@@ -17,28 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://advantageonlineshopping.com/?authuser=0#/')
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/Sign In_Advantage Shopping/a_My account                        My orde_124641'))
-
-WebUI.setText(findTestObject('Object Repository/Sign In_Advantage Shopping/input_OR_username'), GlobalVariable.username)
-
-WebUI.setText(findTestObject('Object Repository/Sign In_Advantage Shopping/input_Username_password'), GlobalVariable.password)
-
-WebUI.click(findTestObject('Object Repository/Sign In_Advantage Shopping/input_Email_remember_me'))
-
-WebUI.click(findTestObject('Object Repository/Sign In_Advantage Shopping/button_SIGN IN'))
-
-account = WebUI.verifyElementVisible(findTestObject('Object Repository/Sign In_Advantage Shopping/account_name'),FailureHandling.OPTIONAL)
-
-if (account) {
-	println("Berhasil Masuk")
-}else {
-	println("Gagal Masuk")
-}
-
-WebUI.delay(3)
