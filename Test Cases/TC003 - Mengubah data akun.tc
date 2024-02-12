@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan bahwa user dapat dengan sukses mengubah informasi akun mereka, dan bahwa sistem merespons dengan benar terhadap perubahan tersebut</description>
+   <name>TC003 - Mengubah data akun</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1139034-5be5-4dff-b823-ec4fe58a7885</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Advantage Shopping/path_CHECKOUT  (0.00)_menuUserSVGPath",
+      "brokenLocator": "//path[@id \u003d \u0027menuUserSVGPath\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027menuUserSVGPath\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Advantage Shopping/path_CHECKOUT  (0.00)_menuUserSVGPath_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Register_Advantage Shopping/path_CHECKOUT  (0.00)_menuUserSVGPath",
+      "brokenLocator": "//path[@id \u003d \u0027menuUserSVGPath\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027menuUserSVGPath\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Register_Advantage Shopping/path_CHECKOUT  (0.00)_menuUserSVGPath_BASIC.png"
+    }
+  ]
+}

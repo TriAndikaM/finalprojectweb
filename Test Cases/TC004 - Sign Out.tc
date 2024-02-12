@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memastikan bahwa user akan dikeluarkan dari akunnya oleh sistem</description>
+   <name>TC004 - Sign Out</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab550261-5204-4a2b-921c-3240feaa21bc</testCaseGuid>
+</TestCaseEntity>

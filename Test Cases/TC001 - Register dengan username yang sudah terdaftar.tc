@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Untuk memastikan bahwa sistem memberikan pesan yang jelas kepada user saat user mendaftarkan akun menggunakan username yang sebelumnya sudah terdaftar di website</description>
+   <name>TC001 - Register dengan username yang sudah terdaftar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc3844ec-b768-4f7f-b463-51e36c4f2d38</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6f8d963-0a25-4b36-b0fc-fcfeabc07d97</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d6f8d963-0a25-4b36-b0fc-fcfeabc07d97</id>
+      <masked>false</masked>
+      <name>account_exist</name>
+   </variable>
+</TestCaseEntity>

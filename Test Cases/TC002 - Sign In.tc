@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Untuk memastikan bahwa user dapat sign in setelah memasukkan username dan password yang valid</description>
+   <name>TC002 - Sign In</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7dc9b9cd-84e4-4d88-b142-d6834692d1b9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81a6f891-f733-4b20-8877-53eaf0b13611</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>81a6f891-f733-4b20-8877-53eaf0b13611</id>
+      <masked>false</masked>
+      <name>account</name>
+   </variable>
+</TestCaseEntity>
